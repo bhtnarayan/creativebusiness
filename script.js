@@ -1,3 +1,4 @@
+// responsive navbar function 
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "cb-topnav") {
@@ -23,7 +24,7 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-
+// function for active tabs
 var btnContainer = document.getElementById("myTopnav");
 var btns = btnContainer.getElementsByClassName("btn");
 
